@@ -1,0 +1,21 @@
+[project]
+title = "Student Performance"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Insight on How students are Doing"
+logo = "images/lavender_logo.png"
+favicon = "images/lavender_logo.png"
+primaryColor = "#B57EDC"
+secondaryColor = "#F9F5FF"
+
+[data.student_habits_performance_csv]
+type = "csv"
+path = "data/student_habits_performance.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
